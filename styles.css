@@ -1,0 +1,126 @@
+body {
+    background-image: url('./img/960x0.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+#app {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 700px;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid #000;
+    border-radius: 20px;
+}
+.container {
+    margin: 50px;
+}
+.title {
+    margin: 0 0 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.formControll {
+    display: flex;
+}
+.formInput {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    margin: 0 50px 0 0;
+}
+.formControll button {
+    padding: 10px 30px;
+    font-size: 20px;
+    margin: 0 0 0 50px;
+}
+.yourBet {
+    margin-top: 20px;
+    display: flex;
+}
+.yourBet p {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.game {
+    margin-top: 20px;
+    height: 350px;
+    display: flex;
+}
+.bet {
+    width: 60%;
+    height: 100%;
+}
+.result {
+    width: 40%;
+}
+.betList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.betItem {
+    width: calc(100% / 3 - 20px);
+    height: 100px;
+    border: 1px solid;
+    border-radius: 10%;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+    margin: 8px;
+}
+.betItem:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.submit {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20px;
+    padding: 20px 30px;
+    font-size: 20px;
+}
+.result {
+}
+.result p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+}
+.result ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+.result ul > li {
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    border-radius: 10%;
+    margin: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.yourMoney {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.yourMoney p {
+    margin: 20px;
+}
+.yourMoney p:nth-child(1) {
+    font-size: 30px;
+}
+.yourMoney p:nth-child(2) {
+    font-size: 40px;
+    font-weight: bold;
+}
